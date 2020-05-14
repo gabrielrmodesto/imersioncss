@@ -57,11 +57,13 @@ a:hover {
   width: 240px;
   object-fit: cover;
 }
-.projetos {
+.projetos,
+.contato {
   padding: 2em;
-  height: 100vh;
+  min-height: 100vh;
 }
-.projetos h2 {
+.projetos h2,
+.contato h2 {
   margin-bottom: 2em;
   font-size: 2em;
   text-align: center;
@@ -73,13 +75,13 @@ a:hover {
 .projetos figure {
   text-align: center;
 }
-@media (min-width: 560px){
-  .projetos .grid{
+@media (min-width: 560px) {
+  .projetos .grid {
     grid-template-columns: repeat(2, 240px);
   }
 }
-@media (min-width: 880px){
-  .projetos .grid{
+@media (min-width: 880px) {
+  .projetos .grid {
     grid-template-columns: repeat(3, 240px);
     align-content: center;
     justify-content: center;
